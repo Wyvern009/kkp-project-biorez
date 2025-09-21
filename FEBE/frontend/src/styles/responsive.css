@@ -1,0 +1,422 @@
+@media (max-width: 1280px) {
+  :root {
+    --h1-font: 2.7rem;
+    --h2-font: 1.8rem;
+    --h3-font: 1.4rem;
+  }
+
+  /* NAVIGATION BAR */
+  .navigation-container {
+    padding-inline: 40px;
+  }
+
+  .navigation-container .nav-menu li {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 1160px) {
+  :root {
+    --h1-font: 2.5rem;
+  }
+
+  /* NAVIGATION BAR */
+  .navigation-container .nav-menu {
+    gap: 25px;
+  }
+
+  .navigation-container .nav-menu li a {
+    font-size: 1rem;
+  }
+
+  /* SHOP */
+  .filter-shop-button-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filter-shop-button-list {
+    gap: 20px;
+  }
+
+  .filter-shop-button {
+    padding: 10px 0;
+  }
+
+  .shop-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* SCANNER */
+  .new-form__documentations__outputs-item {
+    flex-direction: column;
+  }
+
+  .camera-btn-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .documentations-buttons-container {
+    flex-direction: column;
+  }
+
+  .camera-take-button-container {
+    flex-direction: column;
+    order: -1;
+  }
+  
+  .camera-take-button-container button:hover {
+    transform: scale(.98);
+  }
+
+  .scan-results-image img {
+    max-width: none;
+  }
+
+  /* CART */
+  .cart-list-container {
+    flex-direction: column;
+  }
+
+  .cart-list-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .cart-item__name {
+    margin-top: -15px;
+  }
+
+  .cart-details {
+    order: -1;
+  }
+
+  .cart-item-description {
+    margin: 5px 0 50px;
+  }
+
+  .cart-item__price {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    gap: 15%;
+  }
+}
+
+@media (max-width: 964px) {
+  .background-section {
+    padding: 50px;
+  }
+
+  /* NAVIGATION BAR */
+  .navigation-container .nav-menu {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+
+    background-color: var(--secondary-color);
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 0 0 10px 10px;
+    width: 94%;
+    max-height: 0;
+    padding-block: 0;
+
+    z-index: -1;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+  }
+
+  .navigation-container .nav-menu li a {
+    font-size: 1.3rem;
+  }
+  
+  .navigation-container .nav-menu li .active {
+    border-bottom: none;
+  }
+
+  .header-button {
+    padding: 10px 40px;
+  }
+
+  .cart-button {
+    padding: 0;
+  }
+
+  .header-button p {
+    display: none;
+  }
+
+  .header-button .line-header {
+    display: block;
+  }
+
+  .header-button #hamburger-button {
+    display: block;
+  }
+
+  /* HOME */
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-img {
+    order: -1;
+  }
+
+  .home-img img {
+    width: 90%;
+  }
+  
+  .home-btn a {
+    margin: auto;
+  }
+
+  .home-btn {
+    justify-content: center;
+  }
+
+  /* OUR SERVICE */
+  .main-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-list {
+    max-width: none;
+  }
+
+  /* VISSION & MISSION */
+  .vision-mission-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .vision-mission-image img {
+    width: 70%;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-law {
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  /* BIOPORI */
+  .biopori-button-container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .biopori-services-button-container {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 724px) {
+  :root {
+    --h1-font: 2.1rem;
+    --h2-font: 1.5rem;
+    --h3-font: 1.1rem;
+  }
+
+  .background-section {
+    padding: 30px;
+  }
+
+  .header-button {
+    padding: 7px 25px;
+  }
+
+  /* NAVIGATION BAR */
+  .navigation-container {
+    padding-inline: 20px;
+  }
+
+  .navigation-container .nav-menu {
+    width: 90%;
+  }
+
+  .logo-container .logo-name {
+    font-size: 1.3rem;
+  }
+
+  /* SHOP */
+  .search-shop {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .filter-shop-button {
+    padding: 10px 30px;
+    font-size: 0.8rem !important;
+  }
+
+  .cart-list-display,
+  .shop-list {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-item {
+    max-width: 370px;
+  }
+
+  /* FOOTER */
+  .navigation-container .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .navigation-container .contact-us-button {
+    padding: 7px 15px;
+  }
+
+  .footer-law {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 485px) {
+  :root {
+    --h1-font: 1.7rem;
+    --h2-font: 1.2rem;
+    --h3-font: 0.8rem;
+    --p-font: 0.8rem;
+  }
+
+  .cart-navbar {
+    display: block;
+  }
+
+  .header-button {
+    padding: 7px 15px;
+    gap: 5px;
+  }
+
+  .header-button .bx-cart {
+    display: none;
+  }
+
+  .header-button .line-header {
+    display: none;
+  }
+
+  .vision-mission-body p {
+    font-size: var(--p-font);
+  }
+
+  /* SHOP */
+  .search-shop {
+    width: 80%;
+  }
+
+  .filter-shop-button-container {
+    gap: 10px;
+  }
+
+  .filter-shop-button-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .shop-item__cart-button i {
+    font-size: 22px;
+  }
+
+  /* OUR SERVICE */
+  .services-list h2 {
+    font-size: var(--h2-font);
+  }
+
+  .services-list p {
+    font-size: var(--p-font);
+  }
+
+/* SCANNER */
+.scan-results-description .trash-type {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+  /* SHOP & SCANNER*/
+  .shop-item__image img {
+    width: 80%;
+  }
+
+  .new-form__documentations__outputs {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  /* FOOTER */
+  .footer-heading .navigation-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-heading .navigation-container .contact-us-button {
+    display: none;
+  }
+
+  .footer-content {
+    align-items: start;
+  }
+
+  .footer-detail {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-detail-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-detail-text a,
+  .footer-copyright p,
+  .footer-law a {
+    font-size: .9rem;
+  }
+
+  .footer-copyright {
+    text-align: start;
+  }
+
+  .footer-law {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+  }
+}

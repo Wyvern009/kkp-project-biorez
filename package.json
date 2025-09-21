@@ -1,0 +1,38 @@
+{
+  "name": "febe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./FEBE/backend/src/server.js",
+    "build": "webpack --config webpack.prod.js",
+    "start:frontend": "webpack serve --config webpack.dev.js",
+    "start:backend": "nodemon ./FEBE/backend/src/server.js",
+    "start-dev": "npm-run-all --parallel start:frontend start:backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "nodemon": "^3.1.10",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@hapi/inert": "^7.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "idb": "^8.0.3",
+    "nanoid": "^3.3.11",
+    "onnxruntime-web": "^1.22.0"
+  }
+}
